@@ -7,7 +7,7 @@ Serial::Serial(const char *portName)
 	this->connected = false;
 
 	//Try to connect to the given port throuh CreateFile
-	this->hSerial = CreateFile(portName,
+	this->hSerial = CreateFile((LPCWSTR)portName,
 		GENERIC_READ | GENERIC_WRITE,
 		0,
 		NULL,
