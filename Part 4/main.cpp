@@ -6,7 +6,6 @@
 #include <string>
 #include "Serial.h"
 
-//This is a test
 
 #define MY_MESSAGE_NOTIFICATION      1048 //Custom notification message
 HWND hwnd;
